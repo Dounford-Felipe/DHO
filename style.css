@@ -1,0 +1,17 @@
+div {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+.inputs-container {
+	width: 80%
+}
+
+.save-box {
+	margin-bottom: 5px;
+	resize: none;
+}

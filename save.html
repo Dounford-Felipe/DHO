@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>DHO Save Editor</title>
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="save-area">
+<center><b><p>Input your save here</p></b></center>
+<textarea class="save-box" placeholder="Import your save here." id="import-text" cols="50" rows="10"></textarea>
+<br>
+<button onclick="importButton()">Import</button>
+</div>
+<div class="save-area">
+<center><b><p>Copy your new save here</p></b></center>
+<textarea class="save-box" placeholder="Exported save will be here." id="export-text" cols="50" rows="10"></textarea>
+<br>
+<button onclick="updateSavel()">Export</button>
+</div>
+
+<div id="inputs-container" class="inputs-container">
+</div>
+
+</body>
+</html>
